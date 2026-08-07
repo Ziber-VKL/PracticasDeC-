@@ -28,6 +28,15 @@ internal class Program
         Console.WriteLine($"La calificacion maxima: {calificacionMaxima}");
         Console.WriteLine($"La calificacion minima: {calificacionMinimo}");
         Console.WriteLine($"Promedio: {promedio:F2}");
+
+        if (promedio >= 71)
+        {
+            Console.WriteLine("EL estudiante aprobado");
+        }
+        else
+        {
+            Console.WriteLine("EL estudiante reprobo");
+        }
     }
 
     static double[] LeerCalificaciones()
