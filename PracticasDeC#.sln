@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdivinarNumero", "AdivinarN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode2015_D2", "AdventOfCode2015_D2\AdventOfCode2015_D2.csproj", "{EBD2C95C-74F4-4B21-8C1E-21FE28F3E26F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputHelperLibrary", "InputHelperLibrary\InputHelperLibrary.csproj", "{4853BD63-C764-46B8-9902-9B51ADC7DA21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticaLibrary", "PracticaLibrary\PracticaLibrary.csproj", "{8336FDAA-4C2D-41AC-A6BD-4D55DEBDA87C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{EBD2C95C-74F4-4B21-8C1E-21FE28F3E26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBD2C95C-74F4-4B21-8C1E-21FE28F3E26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBD2C95C-74F4-4B21-8C1E-21FE28F3E26F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4853BD63-C764-46B8-9902-9B51ADC7DA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4853BD63-C764-46B8-9902-9B51ADC7DA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4853BD63-C764-46B8-9902-9B51ADC7DA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4853BD63-C764-46B8-9902-9B51ADC7DA21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8336FDAA-4C2D-41AC-A6BD-4D55DEBDA87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8336FDAA-4C2D-41AC-A6BD-4D55DEBDA87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8336FDAA-4C2D-41AC-A6BD-4D55DEBDA87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8336FDAA-4C2D-41AC-A6BD-4D55DEBDA87C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
