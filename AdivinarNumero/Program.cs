@@ -32,7 +32,6 @@ namespace AdivinarNumero
                     else
                     {
                         Console.WriteLine("Felicidades, adivinaste el numero");
-                        Console.WriteLine($"El numero correcto era: {numeroRamdon}");
 
                         Console.WriteLine($"Cantidad de intentos: {intentos}");
                         adivino = true;
