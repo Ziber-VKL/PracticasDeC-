@@ -8,23 +8,38 @@ using System.Threading.Tasks;
 
 namespace Dia6_TicketDomainModel;
 
-internal class User
-{
+//internal class User
+//{
+//    //public int Id { get; set; }
+//    //public string Name { get; set; }
+//    //public string Email { get; set; }
+//    //public Role Role { get; set; }
+
+//    //public User(int id, string name, string email, Role role)
+//    //{
+//    //    Id = id;
+//    //    Name = name;
+//    //    Email = email;
+//    //    Role = role;
+//    //}
+
+//    //public override string ToString()
+//    //{
+//    //    return $"{Id}|{Name}|{Email}|{Role}";
+//    //}
+//}
+
+public abstract class User
+{ 
     public int Id { get; set; }
     public string Name { get; set; }
-    public string Email { get; set; }
-    public Role Role { get; set; }
 
-    public User(int id, string name, string email, Role role)
+    public User(int id, string name)
     {
         Id = id;
         Name = name;
-        Email = email;
-        Role = role;
     }
 
-    public override string ToString()
-    {
-        return $"{Id}|{Name}|{Email}|{Role}";
-    }
+    public abstract void ShowPermissions();
 }
+

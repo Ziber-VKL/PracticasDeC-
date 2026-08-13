@@ -25,6 +25,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia_7_AoC_2015_3", "Dia_7_A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia_7_AoC_2015_3_P2", "Dia_7_AoC_2015_3_P2\Dia_7_AoC_2015_3_P2.csproj", "{A2CFAD88-01E1-44E0-9C2A-BEAFD9CD0955}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia7_UserHierarchy", "Dia7_UserHierarchy\Dia7_UserHierarchy.csproj", "{48BFDEC6-B51A-4182-8AD6-A8308A46F350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia8_NotificationSystem", "Dia8_NotificationSystem\Dia8_NotificationSystem.csproj", "{80A7F138-ABF6-479B-8F88-359852EAEC58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia9_TicketRepository", "Dia9_TicketRepository\Dia9_TicketRepository.csproj", "{D068250C-CF31-4E70-98DA-09425FD62185}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +81,18 @@ Global
 		{A2CFAD88-01E1-44E0-9C2A-BEAFD9CD0955}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2CFAD88-01E1-44E0-9C2A-BEAFD9CD0955}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2CFAD88-01E1-44E0-9C2A-BEAFD9CD0955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48BFDEC6-B51A-4182-8AD6-A8308A46F350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48BFDEC6-B51A-4182-8AD6-A8308A46F350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48BFDEC6-B51A-4182-8AD6-A8308A46F350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48BFDEC6-B51A-4182-8AD6-A8308A46F350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A7F138-ABF6-479B-8F88-359852EAEC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A7F138-ABF6-479B-8F88-359852EAEC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A7F138-ABF6-479B-8F88-359852EAEC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A7F138-ABF6-479B-8F88-359852EAEC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D068250C-CF31-4E70-98DA-09425FD62185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D068250C-CF31-4E70-98DA-09425FD62185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D068250C-CF31-4E70-98DA-09425FD62185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D068250C-CF31-4E70-98DA-09425FD62185}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
