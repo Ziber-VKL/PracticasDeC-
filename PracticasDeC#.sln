@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia9_TicketRepository", "Di
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia10_TicketRepository", "Dia10_TicketRepository_LINQ\Dia9_TicketRepository\Dia10_TicketRepository.csproj", "{20575AFD-FB5D-502D-4FC4-CBF0D2D5D323}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dia4_AoC_2015", "Dia4_AoC_2015\Dia4_AoC_2015.csproj", "{F5EB5DA6-46D8-4EEB-8ACB-C70D144DD1A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{20575AFD-FB5D-502D-4FC4-CBF0D2D5D323}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20575AFD-FB5D-502D-4FC4-CBF0D2D5D323}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20575AFD-FB5D-502D-4FC4-CBF0D2D5D323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5EB5DA6-46D8-4EEB-8ACB-C70D144DD1A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5EB5DA6-46D8-4EEB-8ACB-C70D144DD1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5EB5DA6-46D8-4EEB-8ACB-C70D144DD1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5EB5DA6-46D8-4EEB-8ACB-C70D144DD1A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
