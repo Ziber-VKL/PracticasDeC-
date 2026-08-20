@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Dia10_TicketRepository.Enums;
+using Dia10_TicketRepository.Modelos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dia10_TicketRepository;
+namespace Dia10_TicketRepository.Servicios;
 
 internal class TicketManager
 {

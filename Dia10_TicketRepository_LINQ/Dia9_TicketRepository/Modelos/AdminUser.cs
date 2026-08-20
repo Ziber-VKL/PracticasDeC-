@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Dia10_TicketRepository.Enums;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dia10_TicketRepository;
+namespace Dia10_TicketRepository.Modelos;
 
 public class AdminUser : User
 {

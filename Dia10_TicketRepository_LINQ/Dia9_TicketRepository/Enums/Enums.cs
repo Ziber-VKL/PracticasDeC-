@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dia10_TicketRepository;
+namespace Dia10_TicketRepository.Enums;
 
    public enum Role
     {

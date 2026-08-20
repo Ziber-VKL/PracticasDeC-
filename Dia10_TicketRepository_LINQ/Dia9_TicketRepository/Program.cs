@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Dia10_TicketRepository.Enums;
+using Dia10_TicketRepository.Modelos;
+using Dia10_TicketRepository.Servicios;
+using System;
 using System.Collections.Generic;
 
 namespace Dia10_TicketRepository;
@@ -47,7 +50,7 @@ internal class Program
         ticketManager.GetTicketById(18).Status = Status.InProgress;
 
         List<Ticket> tickets = ticketManager.GetAllTickets();
-        TicketReports reports = new TicketReports(tickets);
+        TicketReportService reports = new TicketReportService(tickets);
 
         Console.WriteLine("Critical Tickets");
 
@@ -67,6 +70,7 @@ internal class Program
             Console.WriteLine(ticket);
         }
 
+
         Console.WriteLine("Ticket By User");
 
         var userTickets = reports.GetTicketByUser(usuario1);
@@ -76,16 +80,16 @@ internal class Program
             Console.WriteLine(ticket);
         }
 
-        Console.WriteLine("Ticker Order By Day");
+        Console.WriteLine("Ticket Order By Day");
 
         var orderedTickets = reports.GetTicketByDay();
 
         foreach (Ticket ticket in orderedTickets)
         {
             Console.WriteLine(
-                $"{ticket.CreatedDate} - {ticket.Title}"
-            );
+                $"{ticket.CreatedDate} - {ticket.Title}");
         }
+
 
         Console.WriteLine("Are All Tickets Closed?");
 
@@ -99,7 +103,7 @@ internal class Program
 
         Console.WriteLine(anyCritical);
 
-        Console.WriteLine("Distinc Users");
+        Console.WriteLine("Distinct Users");
 
         var distinctUsers = reports.GetDistinctUsers();
 
